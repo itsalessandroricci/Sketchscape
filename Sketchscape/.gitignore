@@ -82,3 +82,5 @@ crashlytics-build.properties
 
 ## User settings
 xcuserdata/
+
+.fake

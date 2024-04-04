@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
 {
-    public GameObject obstacle1, obstacle2, obstacle3;
+    public GameObject obstacle1, obstacle2, obstacle3, obstacle4;
     [HideInInspector]
     public float obstacleSpawnInterval = 2.5f;
 
@@ -40,6 +40,10 @@ public class ObstacleSpawner : MonoBehaviour
         else  if (random == 3)
         {
             Instantiate(obstacle3, new Vector3(transform.position.x, -0.5f, 0), Quaternion.identity);
+        }
+        else  if (random == 4)
+        {
+            Instantiate(obstacle4, new Vector3(transform.position.x, -0.5f, 0), Quaternion.identity);
         }
     }
 IEnumerator SpawnObstacles()
