@@ -43,4 +43,3 @@ In the game, you can tap once to perform a small jump, and twice for a higher an
 
 ## Characters
 ![Characters](https://github.com/itsalessandroricci/Sketchscape/assets/120020257/fd1c13d1-b663-450e-aaa1-9cec4922323d)
-
